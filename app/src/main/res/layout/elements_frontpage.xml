@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:padding="16dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/img_logo"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Seepage Inspection Report"
+            android:id="@+id/txtViewSIR"
+            android:padding="16dp">
+
+        </TextView>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/img_frontage"
+        android:padding="16dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="Location"
+        android:id="@+id/edtTxtLocation">
+
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="City Name"
+        android:id="@+id/edtTxtCity">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Home Inspectors: "
+        android:id="@+id/txtViewHI"
+        android:padding="16dp">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="Engineer Name 1st"
+        android:id="@+id/edtTxtEN1">
+
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="Engineer Name 2st"
+        android:id="@+id/edtTxtEN2">
+
+    </EditText>
+
+    </LinearLayout>
+
+
+</LinearLayout>
